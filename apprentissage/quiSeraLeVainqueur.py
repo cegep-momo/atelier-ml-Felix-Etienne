@@ -42,4 +42,4 @@ def prediction(numeroPokemon1, numeroPokemon2, Pokedex):
 with open("apprentissage/datas/pokedex.csv", newline='') as csvfile:
     pokedex = csv.reader(csvfile)
     next(pokedex)
-    prediction(368, 598, pokedex)
+    prediction(120, 745, pokedex)
